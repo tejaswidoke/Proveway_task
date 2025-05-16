@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proveway Bundle Offer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2 class="heading">YAY! It’s BOGO</h2>
+
+    <form id="bundle-form">
+      <!-- 1 Unit -->
+      <div class="bundle selected">
+        <label>
+          <input type="radio" name="bundle" value="1" checked />
+          <span class="unit-label">1 Unit <span class="discount">10% Off</span></span>
+          <span class="price">$10.00 USD <span class="old-price">$24.00</span></span>
+          <div class="desc">Standard Price</div>
+        </label>
+
+       <div class="dropdowns hidden">
+          <div>
+            #1 Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+            <option>Color</option>
+              <option>Black</option>
+              <option>White</option>
+              <option>Blue</option>
+            </select>
+          </div>
+          <div>
+            #2 Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+            <option>Color</option>
+              <option>Black</option>
+              <option>White</option>
+              <option>Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Unit -->
+      <div class="bundle">
+        <label>
+          <input type="radio" name="bundle" value="2" />
+          <span class="unit-label">2 Unit <span class="discount">20% Off</span></span>
+          <span class="price">$18.00 USD <span class="old-price">$24.00</span></span>
+          <div class="most-popular">Most Popular</div>
+        </label>
+        <div class="dropdowns hidden">
+          <div>
+            #1 Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+            <option>Color</option>
+              <option>Black</option>
+              <option>White</option>
+              <option>Blue</option>
+            </select>
+          </div>
+          <div>
+            #2 Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+            <option>Color</option>
+              <option>Black</option>
+              <option>White</option>
+              <option>Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Unit -->
+      <div class="bundle">
+        <label>
+          <input type="radio" name="bundle" value="3" />
+          <span class="unit-label">3 Unit <span class="discount">30% Off</span></span>
+          <span class="price">$24.00 USD <span class="old-price">$24.00</span></span>
+        </label>
+        <div class="dropdowns hidden">
+            <div>
+              #1 Size:
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              Colour:
+              <select>
+                <option>Color</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <div>
+              #2 Size:
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              Colour:
+              <select>
+                <option>Color</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+    </form>
+
+    <div class="footer">
+      <div class="delivery">Free Delivery</div>
+      <div class="total">Total: <strong id="total-price">$18.00 USD</strong></div>
+    </div>
+
+    <button class="add-to-cart">+ Add to Cart</button>
+    <div class="powered">Powered by Pumper</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

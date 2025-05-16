@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid #ffc0cb;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .heading {
+    text-align: center;
+    color: hotpink;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .bundle {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .bundle.selected {
+    border: 2px solid gold;
+    background-color: #fff7f7;
+  }
+  
+  .bundle input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .unit-label {
+    font-weight: bold;
+  }
+  
+  .discount {
+    background: #ff5c8a;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+  
+  .price {
+    float: right;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #ccc;
+    font-size: 12px;
+  }
+  
+  .desc {
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+  }
+  
+  .most-popular {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ff4d4d;
+    color: white;
+    padding: 3px 8px;
+    font-size: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .dropdowns {
+    margin-top: 10px;
+  }
+  
+  .dropdowns div {
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .delivery {
+    color: hotpink;
+  }
+  
+  .add-to-cart {
+    width: 100%;
+    padding: 12px;
+    background: hotpink;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .powered {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    color: #aaa;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
