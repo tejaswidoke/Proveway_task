@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-      "build": "mkdir dist 2>nul || echo Directory exists && xcopy src\\* dist\\ /E /I /Y"
+      "build": "mkdir -p dist && cp -r src/. dist/"
+    },
+    "devDependencies": {
+      "cross-env": "^7.0.3"
     }
   }
